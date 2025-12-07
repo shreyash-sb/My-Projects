@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shreyash Bobalade | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">Shreyash Bobalade</div>
+      <nav id="navbar">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="controls">
+        <button id="mode-toggle" onclick="toggleMode()">Dark</button>
+        <button id="menu-btn" onclick="toggleMenu()">Menu</button>
+      </div>
+    </header>
+
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <h1>I'm Shreyash Bobalade</h1>
+        <p>
+          A dedicated IT engineering student focused on building modern websites
+          and learning advanced development techniques.
+        </p>
+        <a href="#contact" class="btn">Hire Me</a>
+      </div>
+      <div class="hero-image">
+        <img src="my.jpg" alt="Shreyash" />
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="about-image">
+        <img src="my image.jpg" alt="Shreyash" />
+      </div>
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          I am an aspiring developer who enjoys creating clean user interfaces
+          and efficient backend solutions. I focus on writing smooth, clean, and
+          optimized code to build high-quality digital experiences. My work
+          revolves around creativity, learning, and continuous improvement.
+        </p>
+        <a href="resume.pdf" class="btn">Download Resume</a>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <h2>My Skills</h2>
+      <div class="skill-container">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">C</div>
+        <div class="skill">C++</div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-box">
+          <h3>Portfolio Website</h3>
+          <p>
+            A modern, responsive personal website created using HTML, CSS, and
+            JavaScript. It highlights creativity and strong design principles.
+          </p>
+        </div>
+        <div class="project-box">
+          <h3>Mini C Programs</h3>
+          <p>
+            A collection of programs and algorithms implemented in C featuring
+            file handling, data structures, and pointer concepts.
+          </p>
+        </div>
+        <div class="project-box">
+          <h3>Expense Tracker</h3>
+          <p>
+            A simple and functional web-based application to record and manage
+            expenses efficiently using JavaScript.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" rows="4"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>© 2025 Shreyash Bobalade | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
